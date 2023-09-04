@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React-Repository-Documentation/static/css/main.88404e20.css",
+    "main.js": "/React-Repository-Documentation/static/js/main.bfabd30e.js",
+    "static/js/787.eed000a1.chunk.js": "/React-Repository-Documentation/static/js/787.eed000a1.chunk.js",
+    "static/media/3.png": "/React-Repository-Documentation/static/media/3.37ec5daaa91fcdd3350b.png",
+    "static/media/2.png": "/React-Repository-Documentation/static/media/2.c45701fe59d51f356de9.png",
+    "static/media/1.jpg": "/React-Repository-Documentation/static/media/1.4a2e33da6fde32892ee0.jpg",
+    "static/media/4.jpg": "/React-Repository-Documentation/static/media/4.b2a154f0643b17c53006.jpg",
+    "index.html": "/React-Repository-Documentation/index.html",
+    "main.88404e20.css.map": "/React-Repository-Documentation/static/css/main.88404e20.css.map",
+    "main.bfabd30e.js.map": "/React-Repository-Documentation/static/js/main.bfabd30e.js.map",
+    "787.eed000a1.chunk.js.map": "/React-Repository-Documentation/static/js/787.eed000a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88404e20.css",
+    "static/js/main.bfabd30e.js"
+  ]
+}
