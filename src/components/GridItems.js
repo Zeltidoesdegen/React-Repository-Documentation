@@ -1,7 +1,13 @@
 import {Button, Card} from 'react-bootstrap';
+import {Link} from 'react-router-dom';
 
 //props = variable given, para matawag ko yung files without the need to call it in html
 const GridItems = (props) => {
+    let information = {
+        name: props.name,
+        image: props.imgFile,
+        desc: props.desc,
+    };
     return (  
         <>
         <div className="col-4">
@@ -10,9 +16,13 @@ const GridItems = (props) => {
                 <Card.Body>
                     <Card.Title>{props.name}</Card.Title>
                     <Card.Text>
-                    {props.desc}
+                        {props.desc}
                     </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
+                    <Button variant="warning">
+                        <Link to="/React-Repository-Documentation/SinglePage" state={information}>
+                            Go somewhere
+                        </Link>
+                    </Button>
                 </Card.Body>
             </Card>
         </div>
